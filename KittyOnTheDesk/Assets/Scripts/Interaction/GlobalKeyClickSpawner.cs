@@ -13,7 +13,7 @@ namespace Interaction
         public bool spawnAtMousePosition = true;
         
         [Header("限制设置")]
-        public int spawnEveryXPresses = 5; // 每按X次生成一个预制体
+        public int spawnEveryXPresses = 3; // 每按X次生成一个预制体
         private int pressCount = 0; // 按键计数
 
         // Windows API相关定义

@@ -5,7 +5,7 @@ using Random = UnityEngine.Random;
 
 namespace Interaction
 {
-    public class GlobalKeySpawner : MonoBehaviour
+    public class GlobalKeyClickSpawner : MonoBehaviour
     {
         [Header("生成设置")]
         public GameObject prefabToSpawn;
@@ -13,12 +13,13 @@ namespace Interaction
         public bool spawnAtMousePosition = true;
         
         [Header("限制设置")]
-        public float cooldown = 0.2f;
-        private float lastSpawnTime;
+        public int spawnEveryXPresses = 5; // 每按X次生成一个预制体
+        private int pressCount = 0; // 按键计数
 
         // Windows API相关定义
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
+        private const int WM_KEYUP = 0x0101; // 键盘释放事件
         private static LowLevelKeyboardProc _proc = HookCallback;
         private static IntPtr _hookID = IntPtr.Zero;
 
@@ -26,8 +27,10 @@ namespace Interaction
         private delegate IntPtr LowLevelKeyboardProc(
             int nCode, IntPtr wParam, IntPtr lParam);
 
-        // 按键状态标记
-        private static bool keyPressed = false;
+        // 跟踪按键状态
+        private static bool isKeyDown = false;
+        private static int currentKeyCode = 0;
+        private static bool keyClicked = false;
 
         private void Start()
         {
@@ -43,13 +46,18 @@ namespace Interaction
 
         private void Update()
         {
-            // 检测到全局按键且满足条件时生成预制体
-            if (keyPressed && prefabToSpawn != null && 
-                Time.time - lastSpawnTime >= cooldown)
+            // 检测到完整的键盘点击
+            if (keyClicked && prefabToSpawn != null)
             {
-                SpawnPrefab();
-                lastSpawnTime = Time.time;
-                keyPressed = false; // 重置状态
+                pressCount++; // 增加按键计数
+                keyClicked = false; // 重置状态
+
+                // 当按键次数达到设定值时生成预制体并重置计数
+                if (pressCount >= spawnEveryXPresses)
+                {
+                    SpawnPrefab();
+                    pressCount = 0; // 重置计数
+                }
             }
         }
 
@@ -66,18 +74,32 @@ namespace Interaction
         private static IntPtr HookCallback(
             int nCode, IntPtr wParam, IntPtr lParam)
         {
-            if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
+            if (nCode >= 0)
             {
                 int vkCode = Marshal.ReadInt32(lParam);
-                
-                // 可以在这里过滤不需要监听的按键
                 KeyCode key = (KeyCode)vkCode;
-                if (!key.ToString().Contains("Mouse") &&
-                    key != KeyCode.LeftShift && key != KeyCode.RightShift &&
-                    key != KeyCode.LeftControl && key != KeyCode.RightControl &&
-                    key != KeyCode.LeftAlt && key != KeyCode.RightAlt)
+
+                // 过滤不需要监听的按键
+                if (key.ToString().Contains("Mouse") ||
+                    key == KeyCode.LeftShift || key == KeyCode.RightShift ||
+                    key == KeyCode.LeftControl || key == KeyCode.RightControl ||
+                    key == KeyCode.LeftAlt || key == KeyCode.RightAlt)
                 {
-                    keyPressed = true;
+                    return CallNextHookEx(_hookID, nCode, wParam, lParam);
+                }
+
+                // 处理按键按下事件
+                if (wParam == (IntPtr)WM_KEYDOWN)
+                {
+                    isKeyDown = true;
+                    currentKeyCode = vkCode;
+                }
+                // 处理按键释放事件
+                else if (wParam == (IntPtr)WM_KEYUP && isKeyDown && vkCode == currentKeyCode)
+                {
+                    // 只有当同一个键按下并释放时，才视为一次完整点击
+                    isKeyDown = false;
+                    keyClicked = true;
                 }
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);

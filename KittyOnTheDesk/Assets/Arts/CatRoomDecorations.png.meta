@@ -1,0 +1,3458 @@
+fileFormatVersion: 2
+guid: 092310f8a40422c44ae2799717835c06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatRoomDecorations_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 928
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04a8e74dc3cdd84e932519eb015a006
+      internalID: -1645002510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 928
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ecef9890967504ebab948b5b292a80
+      internalID: -1499733238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 897
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff277f6d2de85542a0127800551aa75
+      internalID: -2022052980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 898
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b28d2b9bdf754c80877aeb105c0f6
+      internalID: 960353320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 898
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f33df05b71edff468a8ea40e873a742
+      internalID: -867015375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_5
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 998
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146fb1a27044364e968a6bf6c208579
+      internalID: 837131744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 998
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175c5b493b3bc794fb4d9459c509bd6e
+      internalID: -1615352023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_7
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 997
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f75419ee930df4bab91c41339626a5
+      internalID: 490565137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_8
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 997
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b3189e3101854eacf651e6adbdf48
+      internalID: 190550633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 833
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bae9ed464b011543af25c1e7a97a90e
+      internalID: 2060790726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_10
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 833
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2141579109b6f634fa1ddb8a33e106c2
+      internalID: -656360118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 834
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15009d77e806b3e4994617c3cf396995
+      internalID: 1400547562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 898
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a694276d4a0ad4fa96a879239ddfd1
+      internalID: 259213242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_13
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 897
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cb06d839811db41b92ede4284bcaaa
+      internalID: 1494072006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 965
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9a26a3829b630489418f475329d3a2
+      internalID: 347156098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_15
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 966
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf061933fe99747498a485057141bc19
+      internalID: -1803120942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 964
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def54685ae528bd46b33e4e79a43d099
+      internalID: 1483977300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 965
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2462a75393fee03489edf82d6b1f9916
+      internalID: 1505972133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 932
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c3d4837b5d9f54f9048595a8175d25
+      internalID: 576938668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 932
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fa0e60e10244f4ba40a38cd49fb2e8
+      internalID: 1826501717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_20
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 931
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce59578d7110a42af55e22ea6c2b9d
+      internalID: -581746001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 931
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a6e6b98d4b297499d08b4b7866190b
+      internalID: 41778547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71a72e03a781a040baab33f8fc7eba0
+      internalID: -165183601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 832
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ec4f11434c2f48a5ff83029c59ad4
+      internalID: 110311956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_24
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 899
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61374b4722ec5a540925924d8d2fd897
+      internalID: 1289605428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 900
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a27207488482843ba3f92198c891d5
+      internalID: 740165011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 898
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18d0244dd4c6fd49bf874d4b2edbdca
+      internalID: 1773452072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_27
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 899
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb7c2b13a73d7548b2f9187cff4be18
+      internalID: -372786072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 804
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce74125aa32580f4799db51a5fe7eaa0
+      internalID: 614508464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_29
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 804
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9a2bb0dcd98d445adff81dea2d4c00
+      internalID: -1913712967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_30
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 870
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f3b63175295cc4ab5b2f6958fb53f7
+      internalID: -541664751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_31
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 870
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d3de56efea2b4cae629258c7e778f
+      internalID: -567805643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_32
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 869
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb90a7435ea061c4fbfd166e86d18e1b
+      internalID: 1758886416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_33
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 869
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d2c43bc0aefc44a8a08d7c009dff07
+      internalID: -451468450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_34
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 772
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5e914a0e96eb46b7af1e59e410672
+      internalID: -923137449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_35
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 771
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c99f710554e8458692b54662215f8
+      internalID: 1244025478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_36
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 837
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa22fa68160048243a3b5b70f016fbdc
+      internalID: 1388263163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_37
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 838
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b867203947394c8b80a0648a58c0e
+      internalID: -1308620344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_38
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 836
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0b80931096b0446a9320e8ede62911
+      internalID: 1844539639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_39
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 837
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2634ef4d50846745a664a5e0da01225
+      internalID: 677814642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 802
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea72aa6e32e3b54499920f91bce9724
+      internalID: -788241802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_41
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 802
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28906ded45b536d4b91d1ff32ccddfd0
+      internalID: -49532853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_42
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 778
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d1915a384c9ff4c919ff59c9b3d66a
+      internalID: 724331723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_43
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 777
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83836381275538b4d859c70afa5141d3
+      internalID: 985262668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 778
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51839120570641b4290cc9efa8e2fb35
+      internalID: 1941151940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_45
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 739
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d91548e3d943845a87e9ea5c1e5613
+      internalID: 1329874291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_46
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 735
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3403d70055e1a4ebc89aaf9939a51b
+      internalID: -1751466786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_47
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 736
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c934062d1dd5bf469f5c843541ee666
+      internalID: 1560791208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_48
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 769
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c58ffb33bc35b9468e8a6832e8930aa
+      internalID: -179281026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 769
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1073a5d26b96da2409656b8e36d85f6e
+      internalID: 1981864384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_50
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 706
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf64eddb3b9a1e841b3d1f0d958d1982
+      internalID: 1197523971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_51
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 706
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2424b3b9081544f9942879244b59e7
+      internalID: 247202599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_52
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 641
+        width: 111
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408ef0c16afe124eaf12ea40e0cbab9
+      internalID: -1592024779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 737
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9786be465d2ada046b2fe1a9c47d0feb
+      internalID: -447986174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_54
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 737
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fdfb77ff4786d4895465f5816e17df
+      internalID: 1663329505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_55
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 714
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e110242acaa09040b9333db9198d253
+      internalID: -8999237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_56
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 713
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea3ac7fa41c834483fb99736bba418
+      internalID: 1018558217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_57
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 714
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22f8c6a7953ed14fa9c59f9ef4a0771
+      internalID: -1898869839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_58
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 607
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eec7a72ecf78e24d8297015a9c815ad
+      internalID: -1776897655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_59
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 617
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067b56263b9e444dac166fcbc9cf960
+      internalID: 2057159277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_60
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 616
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a5526b70a3af24f8e54755d5e12b0a
+      internalID: 791292493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_61
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 616
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be94069492f378438bac3dd12abaffe
+      internalID: -1312838009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_62
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 672
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ebf9c516c7f64694267fb07d16974
+      internalID: -1648745897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 672
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae75675980453468d3f17dd8f992f5
+      internalID: -1804740343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_64
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 672
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a1a3bfff370c047b2191a5c145e818
+      internalID: 205723307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_65
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 579
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce297220de0b2b4c9cbe5f498cf4034
+      internalID: 1619433225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_66
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 584
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8775fea800e71498757537c4f35263
+      internalID: -1961441114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_67
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 586
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7216aa4959e0040bec76419882d19b
+      internalID: -261075016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_68
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 640
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff0d99308631ee4eb775f43ce7627e0
+      internalID: 1579699403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_69
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 640
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69d36a3b10b40d459ce99f75fb5a1ee
+      internalID: -1534265850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_70
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 640
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92573876b366b446a89a2f9578695ad
+      internalID: -412187009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_71
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 608
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea487ec70fb021646817b2c237e9b738
+      internalID: 894391355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_72
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 608
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747ece4ff2f3cd249a3ce8060ccec246
+      internalID: 1885942249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_73
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 608
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd151b2f91cb0840b1a840e64b70f13
+      internalID: 1814472523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_74
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 481
+        width: 111
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5b234e12f064e46a9d4e4559851c11
+      internalID: -664862516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_75
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 479
+        width: 100
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3797197f00a9f7244869b3cabb93b4fe
+      internalID: -1767446376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_76
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 495
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c344c55aee7464cb1700ebc7bb1fdd
+      internalID: -2142547843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_77
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 513
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a896ab65ba61e74d889555052362a4f
+      internalID: -524613691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_78
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 549
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec95c28282c36a41b4685f2bb6a84e7
+      internalID: 1117067402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_79
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 549
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7766f2754961c478e25fef28b93b47
+      internalID: -668907525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_80
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 549
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70139d6a195226446b94aacb117de5c6
+      internalID: 831882229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_81
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 549
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd83928b56bd2047aa60da887b109d6
+      internalID: 1609502176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_82
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 419
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca5a6c87009424b9029938f4da00d3
+      internalID: 184611833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_83
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 484
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0bacf3f290e0e498b6c53c56f07f34
+      internalID: -1693965622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_84
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 484
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3888c9a88a0cb6e4bb060bdece49c728
+      internalID: 291597044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_85
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 484
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d27edc407c077488956e3f2ef2a306
+      internalID: 2110184542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_86
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 484
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc08b762aa962449b42d6e64c628fb7
+      internalID: -1990874548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_87
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 448
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f844049cf97db904f83879b6f98854e8
+      internalID: 1638498776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_88
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 448
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e052f8418ff3ca34a865bba0d00a3bf6
+      internalID: -2000396479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_89
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 448
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8cc47a0009844aaa9f188b488d08f
+      internalID: -1725089979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_90
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 448
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e922aacf4244f02428c07305ce264274
+      internalID: 501406516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_91
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 448
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07933de3f2b79524fbc1ece648c4d75c
+      internalID: -1617501256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_92
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 352
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab36b7138417a3468aa512950aad369
+      internalID: -133147704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_93
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 364
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debd6804ee96f84b87289fe76eae4e5
+      internalID: 843059919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_94
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 421
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fbcbba5c87bb843a71aa52ad8ff366
+      internalID: -399108784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_95
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 421
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afe2f3006f5ade4ba961ab3056f11db
+      internalID: 274010690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_96
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 421
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff1b7b9730f63141b5fe3392a6d5faf
+      internalID: 1361798435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_97
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 421
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d29a1b9224b4e4bb9ea16295ad0249
+      internalID: 767945418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 427
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4421cac7896e5e4091092dda8b2e1ea
+      internalID: -388609961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_99
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 416
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d13c444dbb44349853f461713274d8
+      internalID: -1675935285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_100
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 390
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f0e4c5241535a4690dd68644db9bdb
+      internalID: 243093833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_101
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 390
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70c90c44f47c2f4fa4ee93856de962c
+      internalID: 2132584453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_102
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 366
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc9b179641ba3b48a7b306def2c6766
+      internalID: 1519158952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_103
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 366
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9518d844056926e4b9fc7d9cfc45bc73
+      internalID: -1577381619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_104
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 394
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d514eac1738d6a7498b723c3a9231c73
+      internalID: 91625513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_105
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 394
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffc8710c81fa434397053760b31c4e4
+      internalID: -747695205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_106
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 368
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9285bd8fc4bf6a34186500fe073757b0
+      internalID: -905688252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_107
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 395
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afa94ccc101dca4283e620c18f1d4fe
+      internalID: -748165847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_108
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 392
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3633406d110bd814180f8b0b7ecec838
+      internalID: 542606580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_109
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 392
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b02b01c1983ec4e9cc4bffbfa11640
+      internalID: -1615645422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_110
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 392
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9466521cfe1586a478d5688c39a57cac
+      internalID: -105405822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_111
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 392
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee72a0e5a6edfc4aa38f26bba7b271c
+      internalID: -81038159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_112
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 353
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b489496fc8670438ec1cf7b4207c1b
+      internalID: 908238293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_113
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 353
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbedd8242efaa45a529de9d6244611
+      internalID: 592769544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_114
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 353
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb732a20cf6e2cd4a81a9f45eb3cf5a9
+      internalID: -1309469818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_115
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 353
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c7e21368de98f4299600ee7a1d4a27
+      internalID: 1049656530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_116
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 353
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c7e5c6c1f1b1459e2810a8690152c
+      internalID: 1282706926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_117
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 360
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dbd68fccd16f842864d86b94ea8260
+      internalID: -701784098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_118
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 359
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f3698e18c71d4fb2cf95f22ff8920
+      internalID: -1994576459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_119
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 362
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6268e20b281b46946bb97bf56c76a94c
+      internalID: -1174371452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_120
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 362
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0cdba61602d344b81e6b7467d4ee1
+      internalID: -1112057537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_121
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 363
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04879680327ede54eaac2edb3cbd20be
+      internalID: -969795242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_122
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 359
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53555e64d8eab084eb7f86b8f4426e5c
+      internalID: -1392056123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_123
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 359
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e565321200fedd14695c6d7d6cb1d0dc
+      internalID: -1234472322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_124
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 359
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d544daf54331947841aa0274e6dbe7
+      internalID: 848798865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_125
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 359
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71323033a8ce8324aa81a427d9f02330
+      internalID: 1997838790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_126
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 224
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60069e369506ad2459852ec732ab53ec
+      internalID: -1104504315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_127
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 231
+        width: 45
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253567475f0ca3849956336cac690d9c
+      internalID: -568268280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_128
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 303
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a303e81997aa91443ba978c1ca353167
+      internalID: 1840972448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_129
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 301
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb1857b51b5a4a45be6b14d63dde0bf
+      internalID: -1842139473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_130
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 301
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277cbdc2e038be24d94a6daa8f0c73b8
+      internalID: 1202895149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_131
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 330
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e987317c0e9958644b6f2d4f590a402c
+      internalID: -1699672377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_132
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 330
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636e20580aad5b47a237f4b3be41104
+      internalID: 1433727963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_133
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 258
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8520c961ccee3409dd0eedc63c82ea
+      internalID: -1510890838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_134
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 258
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a1bfc6198df1248800e5019ebff1b6
+      internalID: 1788540688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_135
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 257
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb80cc201c03aa4b93aeb6efdc5bb39
+      internalID: 1199060493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_136
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 258
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77ca972c25e4f40971f9201e0a91b4
+      internalID: -995940409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_137
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 258
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7112a237e562c6445ad1fea8c34f8c2a
+      internalID: 405627512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_138
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 257
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed313c4c7f777848b0c96d648a3b6bd
+      internalID: -1084593115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_139
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 297
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe867ddcef9f9248b0541c4a2963ca3
+      internalID: 1277145484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_140
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 297
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d6aa7d724884847b62f91a938cba80
+      internalID: -1425567947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_141
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 241
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6632bc70b6973e4fb0bce6b9efe5b18
+      internalID: 2114390648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_142
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 238
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572db4520a5b79749a4e9bd5f46e4c8b
+      internalID: 1445205867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_143
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 238
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2aa840ea6defe44b420092d01c7102
+      internalID: 1250201870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_144
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 264
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb7f534671a6f946b1112a2c42f47ef
+      internalID: -1784075781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_145
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 264
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e51a237edf1ae459d723c6cdec6278
+      internalID: 344699221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_146
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 96
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca0f93e3e8586c44ac6418808a271a5
+      internalID: 236921650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_147
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 175
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4ada563c4c205428c473ab3f5eac5b
+      internalID: 1225813432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_148
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 207
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea8315b5656ef24f9cb803ee410a3fb
+      internalID: -790740795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_149
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 173
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dda9ab853dd5ad4e98b86d616181cb4
+      internalID: -1220181735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_150
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 113
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e1028efe034cf47a01f3fa3f919fc9
+      internalID: 536733369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRoomDecorations_151
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 111
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21314d58e5f823c438446eb132848449
+      internalID: -1763569960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 37a163640859c73499674093755112b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CatRoomDecorations_0: -1645002510
+      CatRoomDecorations_1: -1499733238
+      CatRoomDecorations_10: -656360118
+      CatRoomDecorations_100: 243093833
+      CatRoomDecorations_101: 2132584453
+      CatRoomDecorations_102: 1519158952
+      CatRoomDecorations_103: -1577381619
+      CatRoomDecorations_104: 91625513
+      CatRoomDecorations_105: -747695205
+      CatRoomDecorations_106: -905688252
+      CatRoomDecorations_107: -748165847
+      CatRoomDecorations_108: 542606580
+      CatRoomDecorations_109: -1615645422
+      CatRoomDecorations_11: 1400547562
+      CatRoomDecorations_110: -105405822
+      CatRoomDecorations_111: -81038159
+      CatRoomDecorations_112: 908238293
+      CatRoomDecorations_113: 592769544
+      CatRoomDecorations_114: -1309469818
+      CatRoomDecorations_115: 1049656530
+      CatRoomDecorations_116: 1282706926
+      CatRoomDecorations_117: -701784098
+      CatRoomDecorations_118: -1994576459
+      CatRoomDecorations_119: -1174371452
+      CatRoomDecorations_12: 259213242
+      CatRoomDecorations_120: -1112057537
+      CatRoomDecorations_121: -969795242
+      CatRoomDecorations_122: -1392056123
+      CatRoomDecorations_123: -1234472322
+      CatRoomDecorations_124: 848798865
+      CatRoomDecorations_125: 1997838790
+      CatRoomDecorations_126: -1104504315
+      CatRoomDecorations_127: -568268280
+      CatRoomDecorations_128: 1840972448
+      CatRoomDecorations_129: -1842139473
+      CatRoomDecorations_13: 1494072006
+      CatRoomDecorations_130: 1202895149
+      CatRoomDecorations_131: -1699672377
+      CatRoomDecorations_132: 1433727963
+      CatRoomDecorations_133: -1510890838
+      CatRoomDecorations_134: 1788540688
+      CatRoomDecorations_135: 1199060493
+      CatRoomDecorations_136: -995940409
+      CatRoomDecorations_137: 405627512
+      CatRoomDecorations_138: -1084593115
+      CatRoomDecorations_139: 1277145484
+      CatRoomDecorations_14: 347156098
+      CatRoomDecorations_140: -1425567947
+      CatRoomDecorations_141: 2114390648
+      CatRoomDecorations_142: 1445205867
+      CatRoomDecorations_143: 1250201870
+      CatRoomDecorations_144: -1784075781
+      CatRoomDecorations_145: 344699221
+      CatRoomDecorations_146: 236921650
+      CatRoomDecorations_147: 1225813432
+      CatRoomDecorations_148: -790740795
+      CatRoomDecorations_149: -1220181735
+      CatRoomDecorations_15: -1803120942
+      CatRoomDecorations_150: 536733369
+      CatRoomDecorations_151: -1763569960
+      CatRoomDecorations_16: 1483977300
+      CatRoomDecorations_17: 1505972133
+      CatRoomDecorations_18: 576938668
+      CatRoomDecorations_19: 1826501717
+      CatRoomDecorations_2: -2022052980
+      CatRoomDecorations_20: -581746001
+      CatRoomDecorations_21: 41778547
+      CatRoomDecorations_22: -165183601
+      CatRoomDecorations_23: 110311956
+      CatRoomDecorations_24: 1289605428
+      CatRoomDecorations_25: 740165011
+      CatRoomDecorations_26: 1773452072
+      CatRoomDecorations_27: -372786072
+      CatRoomDecorations_28: 614508464
+      CatRoomDecorations_29: -1913712967
+      CatRoomDecorations_3: 960353320
+      CatRoomDecorations_30: -541664751
+      CatRoomDecorations_31: -567805643
+      CatRoomDecorations_32: 1758886416
+      CatRoomDecorations_33: -451468450
+      CatRoomDecorations_34: -923137449
+      CatRoomDecorations_35: 1244025478
+      CatRoomDecorations_36: 1388263163
+      CatRoomDecorations_37: -1308620344
+      CatRoomDecorations_38: 1844539639
+      CatRoomDecorations_39: 677814642
+      CatRoomDecorations_4: -867015375
+      CatRoomDecorations_40: -788241802
+      CatRoomDecorations_41: -49532853
+      CatRoomDecorations_42: 724331723
+      CatRoomDecorations_43: 985262668
+      CatRoomDecorations_44: 1941151940
+      CatRoomDecorations_45: 1329874291
+      CatRoomDecorations_46: -1751466786
+      CatRoomDecorations_47: 1560791208
+      CatRoomDecorations_48: -179281026
+      CatRoomDecorations_49: 1981864384
+      CatRoomDecorations_5: 837131744
+      CatRoomDecorations_50: 1197523971
+      CatRoomDecorations_51: 247202599
+      CatRoomDecorations_52: -1592024779
+      CatRoomDecorations_53: -447986174
+      CatRoomDecorations_54: 1663329505
+      CatRoomDecorations_55: -8999237
+      CatRoomDecorations_56: 1018558217
+      CatRoomDecorations_57: -1898869839
+      CatRoomDecorations_58: -1776897655
+      CatRoomDecorations_59: 2057159277
+      CatRoomDecorations_6: -1615352023
+      CatRoomDecorations_60: 791292493
+      CatRoomDecorations_61: -1312838009
+      CatRoomDecorations_62: -1648745897
+      CatRoomDecorations_63: -1804740343
+      CatRoomDecorations_64: 205723307
+      CatRoomDecorations_65: 1619433225
+      CatRoomDecorations_66: -1961441114
+      CatRoomDecorations_67: -261075016
+      CatRoomDecorations_68: 1579699403
+      CatRoomDecorations_69: -1534265850
+      CatRoomDecorations_7: 490565137
+      CatRoomDecorations_70: -412187009
+      CatRoomDecorations_71: 894391355
+      CatRoomDecorations_72: 1885942249
+      CatRoomDecorations_73: 1814472523
+      CatRoomDecorations_74: -664862516
+      CatRoomDecorations_75: -1767446376
+      CatRoomDecorations_76: -2142547843
+      CatRoomDecorations_77: -524613691
+      CatRoomDecorations_78: 1117067402
+      CatRoomDecorations_79: -668907525
+      CatRoomDecorations_8: 190550633
+      CatRoomDecorations_80: 831882229
+      CatRoomDecorations_81: 1609502176
+      CatRoomDecorations_82: 184611833
+      CatRoomDecorations_83: -1693965622
+      CatRoomDecorations_84: 291597044
+      CatRoomDecorations_85: 2110184542
+      CatRoomDecorations_86: -1990874548
+      CatRoomDecorations_87: 1638498776
+      CatRoomDecorations_88: -2000396479
+      CatRoomDecorations_89: -1725089979
+      CatRoomDecorations_9: 2060790726
+      CatRoomDecorations_90: 501406516
+      CatRoomDecorations_91: -1617501256
+      CatRoomDecorations_92: -133147704
+      CatRoomDecorations_93: 843059919
+      CatRoomDecorations_94: -399108784
+      CatRoomDecorations_95: 274010690
+      CatRoomDecorations_96: 1361798435
+      CatRoomDecorations_97: 767945418
+      CatRoomDecorations_98: -388609961
+      CatRoomDecorations_99: -1675935285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

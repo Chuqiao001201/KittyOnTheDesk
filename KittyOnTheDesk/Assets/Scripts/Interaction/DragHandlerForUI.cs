@@ -63,5 +63,10 @@ public class DragHandlerForUI : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     {
         rectTransform.anchoredPosition = originalPosition;
     }
+
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
+    }
 }
 

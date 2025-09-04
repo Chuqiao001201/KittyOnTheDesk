@@ -1,5 +1,8 @@
+using DataSystem;
+using MemoSystem;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Utilities;
 
 [RequireComponent(typeof(RectTransform))]
 public class DragHandlerForUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
@@ -13,12 +16,16 @@ public class DragHandlerForUI : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     // 引用RectTransform组件
     private RectTransform rectTransform;
 
+    private Memo memo;
+
     void Awake()
     {
         // 获取RectTransform组件
         rectTransform = GetComponent<RectTransform>();
         // 记录初始位置
         originalPosition = rectTransform.anchoredPosition;
+        
+        memo = GetComponent<Memo>();
     }
 
     // 开始拖拽时调用
@@ -56,17 +63,15 @@ public class DragHandlerForUI : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     {
         // 可以在这里添加拖拽结束后的逻辑
         // 例如：限制拖拽范围、吸附到特定位置等
+        if (!memo) return;
+        DataManager.Instance.saveData.memoList[memo.id].memoPos = transform.localPosition;
+        JsonDataTool.SaveData(DataManager.Instance.saveData);
     }
     
     // 可选：添加复位功能
     public void ResetPosition()
     {
         rectTransform.anchoredPosition = originalPosition;
-    }
-
-    public void DestroySelf()
-    {
-        Destroy(gameObject);
     }
 }
 

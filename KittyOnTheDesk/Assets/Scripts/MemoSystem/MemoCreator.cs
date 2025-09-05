@@ -12,11 +12,19 @@ namespace MemoSystem
 
         private void Start()
         {
-            foreach (var memoData in DataManager.Instance.saveData.memoList)
+            // foreach (var memoData in DataManager.Instance.saveData.memoList)
+            // {
+            //     var memo = Instantiate(memoPrefab, transform.position, transform.rotation, transform);
+            //     memo.transform.localPosition = memoData.memoPos;
+            //     memo.GetComponentInChildren<TMP_InputField>().text = memoData.memoText;
+            // }
+            for (var i = 0; i < DataManager.Instance.saveData.memoList.Count; i++)
             {
+                var memoData = DataManager.Instance.saveData.memoList[i];
                 var memo = Instantiate(memoPrefab, transform.position, transform.rotation, transform);
                 memo.transform.localPosition = memoData.memoPos;
                 memo.GetComponentInChildren<TMP_InputField>().text = memoData.memoText;
+                memo.GetComponent<Memo>().id = i;
             }
         }
 

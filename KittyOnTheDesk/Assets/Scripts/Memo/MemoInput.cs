@@ -74,7 +74,7 @@ namespace Memo
             Debug.Log("输入框失去焦点/提交，自动保存: " + text);
         
             // 1. 失去焦点（可选：如需提交后重新聚焦，可注释此行）
-            EventSystem.current.SetSelectedGameObject(null);
+            // EventSystem.current.SetSelectedGameObject(null);
 
             // 2. 安全校验：避免空引用
             if (!memo)

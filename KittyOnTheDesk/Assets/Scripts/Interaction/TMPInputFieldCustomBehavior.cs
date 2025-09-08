@@ -44,6 +44,7 @@ public class TMPInputFieldCustomBehavior : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.Return))
             {
                 inputField.DeactivateInputField(); // 主动让输入框失去焦点，触发onEndEdit
+                SecreteKeyTest();
             }
         }
     }
@@ -94,5 +95,13 @@ public class TMPInputFieldCustomBehavior : MonoBehaviour
         // 3. 更新并保存数据
         DataManager.Instance.saveData.memoList[memo.id].memoText = text;
         JsonDataTool.SaveData(DataManager.Instance.saveData); // 调用之前的JSON保存工具
+    }
+
+    private void SecreteKeyTest()
+    {
+        if (inputField.text.Trim() == "Freya")
+        {
+            Debug.Log("Freya");
+        }
     }
 }

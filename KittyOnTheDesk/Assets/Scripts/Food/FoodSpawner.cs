@@ -1,11 +1,13 @@
-using UnityEngine;
 using System;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using UnityEngine;
+using Utilities;
 using Random = UnityEngine.Random;
 
-namespace Interaction
+namespace Food
 {
-    public class GlobalKeyClickSpawner : MonoBehaviour
+    public class FoodSpawner : Singleton<FoodSpawner>
     {
         [Header("生成设置")]
         public GameObject prefabToSpawn;
@@ -15,6 +17,7 @@ namespace Interaction
         [Header("限制设置")]
         public int spawnEveryXPresses = 3; // 每按X次生成一个预制体
         private int pressCount = 0; // 按键计数
+        public List<GameObject> spawnedObjects;
 
         // Windows API相关定义
         private const int WH_KEYBOARD_LL = 13;
@@ -128,7 +131,8 @@ namespace Interaction
                 spawnPosition = transform.position + spawnOffset;
             }
 
-            Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity, transform);
+            var obj = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity, transform);
+            spawnedObjects.Add(obj);
         }
 
         // 导入Windows API函数
@@ -146,5 +150,15 @@ namespace Interaction
 
         [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         private static extern IntPtr GetModuleHandle(string lpModuleName);
+
+        public int DeliverFood()
+        {
+            var num = spawnedObjects.Count>120 ? 120 : spawnedObjects.Count;
+            for (var i = 0; i < num; i++)
+            {
+                Destroy(spawnedObjects[i]);
+            }
+            return num;
+        }
     }
 }

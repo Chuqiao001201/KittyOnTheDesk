@@ -5,30 +5,14 @@ using Utilities;
 
 namespace DataSystem
 {
-    public class DataManager : MonoBehaviour
+    public class DataManager : Singleton<DataManager>
     {
-        // 静态实例，全局唯一
-        public static DataManager Instance { get; private set; }
-
         // 保存的数据对象
         public SaveData saveData;
 
-        private void Awake()
+        protected override void Awake()
         {
-            // 单例模式实现
-            if (!Instance)
-            {
-                // 如果实例不存在，设置为当前实例
-                Instance = this;
-                // 防止场景切换时被销毁
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
-                // 如果实例已存在，销毁当前重复对象
-                Destroy(gameObject);
-            }
-            
+            base.Awake();
             saveData = JsonDataTool.LoadData();
         }
     }

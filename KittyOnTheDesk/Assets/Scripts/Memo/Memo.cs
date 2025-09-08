@@ -1,9 +1,8 @@
 using DataSystem;
-using TMPro;
 using UnityEngine;
 using Utilities;
 
-namespace MemoSystem
+namespace Memo
 {
     public class Memo : MonoBehaviour
     {

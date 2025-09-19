@@ -387,7 +387,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 357445928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 809001126}
+        m_TargetAssemblyTypeName: Interaction.CursorController, Assembly-CSharp
+        m_MethodName: SetCustomCursor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &357445928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +634,53 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &809001125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809001127}
+  - component: {fileID: 809001126}
+  m_Layer: 0
+  m_Name: CursorController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &809001126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809001125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63cba964c0369f4449b31eaf22c6475c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorOpenHand: {fileID: 2800000, guid: 44745e2b3f963402c9c4aa2ea941392a, type: 3}
+  cursorCloseHand: {fileID: 2800000, guid: 9ab824810348c4fe081125224f7e9db4, type: 3}
+  hotSpot: {x: 16, y: 16}
+--- !u!4 &809001127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809001125}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &836571760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,5 +2556,6 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 1052068747}
   - {fileID: 1299282473}
+  - {fileID: 809001127}
   - {fileID: 1808847850}
   - {fileID: 1907563545}
